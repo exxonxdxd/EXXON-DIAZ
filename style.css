@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color:#9cfc97;
+
+    color:#353d2f;
+
+    height: 100vh;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+strong {
+    color: #6ba368;
+}
+
+.title {
+    color: #e6fafc;
+}
+
+conte
+
+.img1{
+   margin-right: 10px;
+
+}
+
+div {
+
+    justify-content: center;
+
+}
+
