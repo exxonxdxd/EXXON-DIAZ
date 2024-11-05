@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 *{
     padding: 0%;
     margin: 0%;
 }
 
 body {
-    background-color:#9cfc97;
+    background-color:#ffb94fa1;
 
-    color:#353d2f;
+    color:#220f0a;
 
     height: 100vh;
 
@@ -19,17 +21,16 @@ body {
     align-items: center;
 }
 strong {
-    color: #6ba368;
+    color: #000000;
 }
 
 .title {
-    color: #e6fafc;
+    color: #bb9904;
 }
 
-conte
 
 .img1{
-   margin-right: 10px;
+   margin-right: 20px;
 
 }
 
@@ -38,4 +39,25 @@ div {
     justify-content: center;
 
 }
+.presentacion_enlaces_link{
 
+width: 80px;    
+border: 2px solid black;
+text-align: center;
+padding: 21.5px;
+border-radius: 8px;
+font-family: "Playfair", sans-serif;
+font-size: 1.5rem;
+font-weight: 600;
+text-decoration: none;
+color: rgb(228, 176, 35);
+display:flex;
+justify-content: center;
+gap: 10px;
+
+}
+.titulo {
+
+
+
+}
