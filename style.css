@@ -6,17 +6,39 @@
 }
 
 body {
-    background-color:#ffb94fa1;
-    color:#220f0a;
+    background-image:url("https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.colparques.net%2FLAJAS&psig=AOvVaw0RXcSbU2Wsin3Nchh7DKo9&ust=1731507888916000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPiD_tr_1okDFQAAAAAdAAAAABAQ");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    color:#ffffff;
     box-sizing: border-box;
+}
+.header{
+    background-color: aqua;
+    padding: 2% 0% 0% 15%;
+
+}
+    
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+.header__menu__link{
+    font-family: var(--fuente-monserrat);
+    font-size: 1rem;
+    font-weight: 600;
+    color:var(--color-terciario);
+    text-decoration: none;
 }
 .contenedor_padre{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 6% 15%; 
-    gap: 20px;
+    padding: 6% 15%;
+    gap: 20;
 }
+
 .titulo{
     display: flex;
     align-items: center;
