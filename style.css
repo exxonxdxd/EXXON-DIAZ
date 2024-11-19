@@ -11,11 +11,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100px;
-    color:#ffffff;
+    color:#0e0503;
     box-sizing: border-box;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
 }
 .header{
-    background-color: aqua;
+    background-color: rgb(164, 167, 11);
     padding: 2% 0% 0% 15%;
 
 }
@@ -32,19 +35,32 @@ body {
     text-decoration: none;
 }
 .contenedor_padre{
+    justify-content: center;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    align-items:center;
+    flex-direction: column-reverse;
     padding: 6% 15%;
     gap: 20;
 }
 
+
+.iglesia {
+
+justify-content: center;  
+align-items: center;  
+
+
+}
 .titulo{
     display: flex;
     align-items: center;
+    justify-content: center;
+    font-size: 10px;
 }
 .contenedor_general{
     display:flex;
+    align-items: center;
+    font-size: 13px;
     gap: 5%;
 }
 .contenedor_izquierdo{
@@ -55,6 +71,7 @@ body {
 }
 .cotenedor_derecho{
     flex-direction: column;
+    align-items: center;
     gap: 5%;
 }
 strong {
@@ -63,6 +80,7 @@ strong {
 
 .title {
     color: #bb9904;
+    font-size:20px;
 }
 
 
@@ -71,20 +89,19 @@ strong {
 
 }
 
-.presentacion_enlaces_link{
+.presentacion_enlaces_link  {
 
 width: 80px;   
-text-align: center;
+text-align: right;
 padding: 21.5px;
 border-radius: 8px;
 font-family: "Playfair", sans-serif;
 font-size: 1.5rem;
 font-weight: 600;
 text-decoration: none;
-color: rgb(228, 176, 35);
+color: rgb(11, 162, 250);
+align-items:center;
 display:flex;
-justify-content: center;
+justify-content:right;
 gap: 10px;
-
 }
-
